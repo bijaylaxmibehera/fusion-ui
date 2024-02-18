@@ -1,0 +1,19 @@
+.components{
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.component-list {
+    list-style: none;
+    background-color: var(--baby-blue);
+    width: 15vw;
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+
+.navlink {
+    color: black;
+}
