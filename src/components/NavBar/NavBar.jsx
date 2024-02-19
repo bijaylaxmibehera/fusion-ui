@@ -13,6 +13,7 @@ export const NavBar=()=>{
             <div className="nav-items">
                 <NavLink to="/" style={getStyle}>Home</NavLink>
                 <NavLink to="/components" style={getStyle}>Components</NavLink>
+                <NavLink to="https://github.com/bijaylaxmibehera/fusion-ui" style={getStyle} target="_blank">Git repo</NavLink>
             </div>
         </nav>
         </>

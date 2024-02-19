@@ -1,0 +1,18 @@
+.button-docs-conatiner{
+    width: 70vw;
+    padding-left: 2rem;
+}
+
+.button-showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 70%;
+    gap: 20px;
+}
