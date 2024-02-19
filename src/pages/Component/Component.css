@@ -8,7 +8,7 @@
     list-style: none;
     background-color: var(--baby-blue);
     width: 15vw;
-    height: 100vh;
+    min-height: 100vh;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 1rem;
