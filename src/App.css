@@ -1,6 +1,14 @@
 :root{
   --baby-blue:#E7F6FC;
   --teal-green:#028476;
+  --success-bg-color:#cdeccc;
+  --success-text-color:#166423;
+  --info-bg-color:rgb(181, 208, 243);
+  --info-text-color:rgb(35, 80, 135);
+  --warning-bg-color:rgb(255, 245, 204);
+  --warning-text-color:rgb(255, 204, 0);
+  --error-bg-color:rgb(240, 209, 209);
+  --error-text-color:rgb(116, 20, 20);
 }
 
 /* body{
