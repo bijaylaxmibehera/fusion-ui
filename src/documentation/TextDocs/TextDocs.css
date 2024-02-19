@@ -1,0 +1,11 @@
+.text-docs-container{
+    width: 70vw;
+    padding-left:2rem ;
+}
+
+.text-showcase{
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
