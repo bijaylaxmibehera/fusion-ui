@@ -1,12 +1,13 @@
 import "./Avatar.css";
 
-export const Avatar=({ imageUrl, letter }) => {
+export const Avatar=({ imageUrl, letter,size,color}) => {
+  // const avatarClasses = `avatar ${size}`;
     return (
       <div className="avatar">
         {imageUrl ? (
-          <img src={imageUrl} alt="Avatar" className="avatar-image" />
+          <img src={imageUrl} alt="Avatar" className={`avatar-image avatar-${size}`} />
         ) : (
-          <div className="avatar-letter">{letter}</div>
+          <div className={`avatar-letter avatar-${size} ${color}`}>{letter}</div>
         )}
       </div>
     );
